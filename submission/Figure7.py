@@ -87,8 +87,8 @@ def calc_kde_cdf(data, x_val, bandwidth=0.1):
 ###-----Drift-Diffusion Length-----###
 if 0:
     n_repeats = 120
-    n_sess = 8
-    num_preplay_sess = [420, 776, 812, 575, 631, 0, 1428, 1373]
+    n_sess = 9
+    num_preplay_sess = [420, 776, 812, 575, 631, 734, 0, 1428, 1373]
     path_timebin_sess = [
         'results2/shuffle_timebin/drift-diffusion_time_120repeats.npz',
         'results0505/rat1_linear2/shuffle_timebin/drift-diffusion_time_120repeats.npz',
