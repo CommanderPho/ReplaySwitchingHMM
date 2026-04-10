@@ -1,0 +1,10 @@
+[project]
+name = "replayswitchinghmm"
+version = "0.1.0"
+requires-python = ">=3.9.13"
+dependencies = [
+    "neuropy",
+]
+
+[tool.uv.sources]
+neuropy = { path = "../NeuroPy", editable = true }
